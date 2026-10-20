@@ -1,0 +1,67 @@
+cff-version: 1.2.0
+message: "If you use ScaleMAP, please cite the arXiv paper below. Please also cite UMAP and densMAP, which ScaleMAP builds on."
+title: "ScaleMAP"
+abstract: "A nonlinear dimensionality reduction technique related to UMAP that correctly represents the underlying scale of the data."
+type: software
+authors:
+  - family-names: Poorna
+    given-names: Rajas
+    affiliation: Georgia Institute of Technology
+  - family-names: Cicerone
+    given-names: Marcus T.
+    affiliation: Georgia Institute of Technology
+version: 0.1.2
+license: BSD-3-Clause
+repository-code: "https://github.com/rajaspoorna/scalemap"
+url: "https://arxiv.org/abs/2605.30597"
+keywords:
+  - dimension reduction
+  - umap
+  - manifold learning
+  - embedding
+preferred-citation:
+  type: article
+  title: "ScaleMAP: Preserving Local Density and Neighborhood Structure in Low-Dimensional Embeddings"
+  authors:
+    - family-names: Poorna
+      given-names: Rajas
+    - family-names: Cicerone
+      given-names: Marcus T.
+  journal: "arXiv preprint"
+  year: 2026
+  doi: "10.48550/arXiv.2605.30597"
+  url: "https://arxiv.org/abs/2605.30597"
+references:
+  - type: article
+    title: "UMAP: Uniform Manifold Approximation and Projection"
+    authors:
+      - family-names: McInnes
+        given-names: Leland
+      - family-names: Healy
+        given-names: John
+      - family-names: Saul
+        given-names: Nathaniel
+      - family-names: Grossberger
+        given-names: Lukas
+    journal: "The Journal of Open Source Software"
+    volume: 3
+    issue: 29
+    start: 861
+    year: 2018
+    doi: "10.21105/joss.00861"
+  - type: article
+    title: "Assessing single-cell transcriptomic variability through density-preserving data visualization"
+    authors:
+      - family-names: Narayan
+        given-names: Ashwin
+      - family-names: Berger
+        given-names: Bonnie
+      - family-names: Cho
+        given-names: Hyunghoon
+    journal: "Nature Biotechnology"
+    volume: 39
+    issue: 6
+    start: 765
+    end: 774
+    year: 2021
+    doi: "10.1038/s41587-020-00801-7"
