@@ -47,7 +47,7 @@ https://github.com/lmcinnes/umap
 
 The upstream UMAP package is BSD 3-Clause licensed. ScaleMAP is distributed under the same license. See `LICENSE` and `NOTICE.md`.
 
-Please also cite the original UMAP work if appropriate:
+ScaleMAP builds directly on UMAP and on densMAP (whose local radius metric we apply), so please also cite both:
 
 ```bibtex
 @article{mcinnes2018umap-software,
@@ -58,5 +58,16 @@ Please also cite the original UMAP work if appropriate:
   number={29},
   pages={861},
   year={2018}
+}
+
+@article{narayan2021densmap,
+  title={Assessing single-cell transcriptomic variability through density-preserving data visualization},
+  author={Narayan, Ashwin and Berger, Bonnie and Cho, Hyunghoon},
+  journal={Nature Biotechnology},
+  volume={39},
+  number={6},
+  pages={765--774},
+  year={2021},
+  doi={10.1038/s41587-020-00801-7}
 }
 ```
