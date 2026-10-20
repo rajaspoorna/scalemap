@@ -1,5 +1,7 @@
 # ScaleMAP
 
+[![PyPI](https://img.shields.io/pypi/v/scalemap)](https://pypi.org/project/scalemap/)
+
 ScaleMAP is a nonlinear dimensionality reduction technique related to UMAP that correctly represents the underlying scale of the data. Particularly useful in transcriptomics, hyperspectral imaging, and flow cytometry, where UMAP's scale distortion misses features. See the [arXiv paper](https://arxiv.org/abs/2605.30597) for more.
 
 This package is currently a quick release. It is derived from `umap-learn` and keeps essentially the same interface.
