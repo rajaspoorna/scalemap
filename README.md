@@ -47,7 +47,7 @@ https://github.com/lmcinnes/umap
 
 The upstream UMAP package is BSD 3-Clause licensed. ScaleMAP is distributed under the same license. See `LICENSE` and `NOTICE.md`.
 
-ScaleMAP builds directly on UMAP and on densMAP (whose local radius metric we apply), so please also cite both:
+ScaleMAP builds directly on UMAP and on densMAP (whose local radius metric we apply), so please also cite both if appropriate:
 
 ```bibtex
 @article{mcinnes2018umap-software,
@@ -71,3 +71,7 @@ ScaleMAP builds directly on UMAP and on densMAP (whose local radius metric we ap
   doi={10.1038/s41587-020-00801-7}
 }
 ```
+
+## Acknowledgements
+
+This work was supported by the [Cicerone Lab](https://sites.gatech.edu/mtcicerone/professor-cicerone/) at the Georgia Institute of Technology.
