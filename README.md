@@ -1,10 +1,8 @@
 # ScaleMAP
 
-ScaleMAP is a modification of UMAP that incorporates local scale into the embedding.
+ScaleMAP is a nonlinear dimensionality reduction technique related to UMAP that correctly represents the underlying scale of the data. Particularly useful in transcriptomics, hyperspectral imaging, and flow cytometry, where UMAP's scale distortion misses features. See the [arXiv paper](https://arxiv.org/abs/2605.30597) for more.
 
-A dimensionality reduction technique related to UMAP that correctly represents the underlying scale of the data. Particularly useful in transcriptomics, hyperspectral imaging, and flow cytometry, where UMAP's scale distortion misses features. See the [arXiv paper](https://arxiv.org/abs/2605.30597) for more.
-
-This package is currently a quick release. It is derived from `umap-learn` and keeps the same scikit-learn-style estimator interface.
+This package is currently a quick release. It is derived from `umap-learn` and keeps essentially the same interface.
 
 ## Installation
 
@@ -41,8 +39,6 @@ If you use ScaleMAP in scientific work, please cite the arXiv paper:
 }
 ```
 
-Please cite the paper rather than the PyPI package; the `scalemap` 0.1.x release predates the arXiv preprint.
-
 ## Attribution
 
 ScaleMAP is derived from `umap-learn` by Leland McInnes and contributors. The upstream project is available at:
@@ -51,7 +47,7 @@ https://github.com/lmcinnes/umap
 
 The upstream UMAP package is BSD 3-Clause licensed. ScaleMAP is distributed under the same license. See `LICENSE` and `NOTICE.md`.
 
-Please also cite the original UMAP work as appropriate:
+Please also cite the original UMAP work if appropriate:
 
 ```bibtex
 @article{mcinnes2018umap-software,
